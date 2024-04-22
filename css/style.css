@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 20px;
+    background: #1ba11a url(/imgs/tile.png) top left repeat;
+    font-family: Comic sans,Comic Sans MS,cursive;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    color: #FFF;
+	font-family: times,helvetic,sans-serif;
+	font-size: 112px;
+	margin: 0;
+	padding-top: 12px;;
+}
+h2{
+    font-size: 40px;
+	font-weight: normal;
+	margin: 0;
+    color: yellow;
+}
+
+.column-imgs{
+    display: flex;
+}
+.column{
+    margin: 20px auto;
+}
+.yellow-text{
+    color: yellow;
+    text-align: center;
+}
+.white-text{
+    color: white;
+    text-align: center;
+}
+.small-copy {
+	font-size: 21px;
+}
+.medium-copy {
+	font-size: 25px;
+}
+.large-copy {
+	font-size: 42px;
+}
+.second-row{
+    margin: 42px 0;
+}
+.second-row li {
+	margin: 0px 18px;
+}
+.second-row li img {
+	vertical-align: top;
+}
+ul li {
+	display: inline;
+}
+.fourth-row li{
+    margin: 20px 100px;
+}
+.first-yf {
+	background: url(/imgs/bow_left.png) no-repeat 655px 90px;
+}
+.first-yf p {
+	background: url(/imgs/bow_right.png) no-repeat 1150px 90px;
+	padding: 22px;
+}
+.donation-box{
+    background: #000;
+	width: 840px;
+	height: 185px;
+	margin: 0 auto;
+	padding: 8px;
+}
+.legal {
+	text-align:center;
+	padding-bottom:20px;
+}
+.legal a {
+	color:#fff;
+}
+.legal a + a {
+	margin-left:40px;
+}
+.legal{
+    margin: 20px 0;
+}
+footer{
+    font-weight: normal;
+}
+.copyright{
+    font-size: 12px;
+}
